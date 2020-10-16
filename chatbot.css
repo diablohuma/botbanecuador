@@ -152,7 +152,7 @@
     animation: latido 1.2s ease-in-out 3.5s both
 }
 
-.enlace-privacidad {
+#enlace-privacidad {
     text-decoration: none;
     color: black;
     font-family: roboto, sans-serif;
