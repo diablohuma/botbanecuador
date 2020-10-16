@@ -6,14 +6,6 @@ function cargainicialbot() {
     document.getElementById('botiframe').style.display = 'none'
 }
 
-function showChatWindow() {
-    document.getElementById('webChatIcon').classList.remove('latido');
-    document.getElementById('webchat').style.visibility = 'visible'
-    document.getElementById('avatar-container').style.visibility = 'collapse'
-    if (activado == "true") {
-        document.getElementById('botiframe').style.display = ''
-    }
-}
 
 
 function hideChatWindow() {
