@@ -1,0 +1,274 @@
+.wc-header {    
+    background-image: linear-gradient(90deg, rgba(221, 221, 221, 1) 0%, rgba(180, 180, 180, 1) 100%);
+    color: white;   
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 8px;
+    font-family: roboto, sans-serif;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5em 0em;
+    align-items: center;
+}
+
+.btnChat {
+    border: none;
+    background-color: inherit;
+    width: 40px;
+    height: 30px;
+    margin: -6px 0 0 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(38, 80, 109);
+}
+
+#saludobot {
+    padding: 1em 2em;
+    border-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-right-radius: 0;
+    pointer-events: auto;
+    font-size: 14px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background: #38beac;
+    color: #fff;
+    height: min-content;
+}
+
+.btnClose_bot {
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-weight: bolder;
+    transform: scaleX(3);
+    color: white;
+}
+
+.btn-aceptarbot {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    box-shadow: 0 2px 2px 0 rgba(76, 175, 80, .14), 0 3px 1px -2px rgba(76, 175, 80, .2), 0 1px 5px 0 rgba(76, 175, 80, .12);
+    margin: 0 0 15px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    border: 0;
+    border-radius: .2rem;
+    outline: 0;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1);
+    will-change: box-shadow, transform;
+    font-family: roboto, sans-serif;
+    min-width: 150px;
+}
+
+.btn-cancelarbot {
+    color: #fff;
+    background-color: #e25959;
+    border-color: #e25959;
+    box-shadow: 0 2px 2px 0 rgba(245, 90, 78, .14), 0 3px 1px -2px rgba(245, 90, 78, .2), 0 1px 5px 0 rgba(245, 90, 78, .12);
+    margin: 0 0 15px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    border: 0;
+    border-radius: .2rem;
+    outline: 0;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1);
+    will-change: box-shadow, transform;
+    font-family: roboto, sans-serif;
+    min-width: 150px;
+}
+
+.card-pascal {
+    border: 0;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, .87);
+    background: #fff;
+    width: 100%;
+}
+
+.cuerpo-bot {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.btn_icono {
+    padding-right: 5px;
+}
+
+.wc-header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+}
+
+@keyframes latido {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    10% {
+        transform: scale(0.9);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    17% {
+        transform: scale(0.97);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    33% {
+        transform: scale(0.85);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    45% {
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+.latido {
+    -webkit-animation: latido 1.2s ease-in-out 3.5s both;
+    animation: latido 1.2s ease-in-out 3.5s both
+}
+
+.enlace-privacidad {
+    text-decoration: none;
+    color: black;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+}
+
+.texto-bienvenida {
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    color: black;
+    margin: 20px;
+    line-height: 20px;
+}
+
+@-webkit-keyframes latido {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    10% {
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    17% {
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    33% {
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    45% {
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+#webchat {
+    width: 22vw;
+    min-width: 350px;
+    overflow: hidden;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: auto;
+    right: 0px;
+    bottom: 0px;
+    visibility: collapse;
+    z-index: 100000;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+#mensaje_bienvenida {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+
+#logo-cabecera {
+    max-width: 40px;
+    height: auto;
+}
+
+#botiframe {
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+
+#bot_nombre {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-left: 0.5em;
+}
+
+#avatar-container {
+    z-index: 10000;
+    position: fixed;
+    pointer-events: none;
+    right: 2vw;
+    bottom: 2vh;
+    left: auto;
+    font-family: roboto, sans-serif;
+    display: block;
+}
+
+#avatar-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    pointer-events: none;
+}
+
+#webChatIcon {
+    border-radius: 50%;
+    background-color: transparent;
+    pointer-events: auto;
+    margin-left: 1vw;
+}
+
+#img_logo {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
