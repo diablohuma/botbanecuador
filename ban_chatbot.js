@@ -52,6 +52,14 @@ function cargabot() {
         return next(action);
     });
 
+const MarkdownIt = require('markdown-it');
+var MarkdowStyle = require('markdown-it-style);
+
+const markdownIt = new MarkdownIt({ html: false, linkify: true, typographer: true });
+markdownIt .use(markdownStyle, { 'a': 'color: red;' });
+
+const renderMarkdown = text => markdownIt.render(text);
+
     window.WebChat.renderWebChat(
         {
             directLine: window.WebChat.createDirectLine({
@@ -59,6 +67,7 @@ function cargabot() {
                 locale: 'es-ES'
             }),
             store,
+		renderMarkdown,
             sendTypingIndicator: true,
             styleOptions: {
                 hideUploadButton: true,
