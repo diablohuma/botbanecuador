@@ -69,9 +69,9 @@ function cargabot() {
                 sendBoxTextColor: 'white',
                 sendBoxButtonColorOnHover: '#fff',
                 sendBoxHeight: 30,
-                bubbleFromUserBackground: '#193C6E',
-                bubbleBackground: '#939598',
+                bubbleFromUserBackground: '##DFDFE4',
                 bubbleFromUserTextColor: 'black',
+                bubbleBackground: '#939598',                
                 bubbleTextColor: 'white',
                 botAvatarImage: 'https://www.banecuador.fin.ec/wp-content/uploads/2020/09/logo.png',
                 botAvatarInitials: 'Beto',
@@ -79,8 +79,7 @@ function cargabot() {
                 emojiSet: true,
 		        suggestedActionLayout: 'stacked', 
 		        bubbleBorderRadius: 15,
-                bubbleFromUserBorderRadius: 15,
-                bubbleBorderColor: '#43BEAC' 
+                bubbleFromUserBorderRadius: 15
             }
         },
         document.getElementById('botiframe'));
