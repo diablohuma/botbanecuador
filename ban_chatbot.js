@@ -57,7 +57,7 @@ function cargabot() {
     window.WebChat.renderWebChat(
         {
             directLine: window.WebChat.createDirectLine({
-                token: 'QX5meB4lW2s.V7o9ufQ6fE0VWvAyR5ZRV4VEzcmWnMWQHJ_yCcpen4k',                
+                token: 'TdFBGC_ChV4.IbdYXu0bXBoS49mb6zHuvnbWzVHznSbjcYiyHMLTq3c',                
                 locale: 'es-ES'
             }),
             store,
